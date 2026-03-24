@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-03-24T14:38:06.677093",
+  "total": 1,
+  "passed": 1,
+  "failed": 0,
+  "results": [
+    {
+      "case_id": null,
+      "case_name": "execute_raw_response",
+      "api_id": 56427399,
+      "api_name": "创建优惠码",
+      "status_code": null,
+      "passed": true,
+      "response_time_ms": null,
+      "response_body": {
+        "type": "api_test_case",
+        "status": "success",
+        "report_id": 243638
+      },
+      "error": null,
+      "raw": {
+        "type": "api_test_case",
+        "status": "success",
+        "report_id": 243638
+      }
+    }
+  ]
+}
