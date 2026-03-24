@@ -4,15 +4,15 @@
   "space_id":     "space-o74jhl",
   "space_url":    "https://apis.eolink.com",
   "project_id":   "Up9smF8c6dfa66b4b4ce0934908cd89edd27b3352f93da4",
-  "base_url":     "https://alternating98.wshopon.com",
+  "base_url":     "",
   "auth_header":  "",
   "test_account": {
-    "user_name": "jiweijian@lf-network.com",
-    "user_password": "jiweijian0",
+    "user_name": "",
+    "user_password": "",
     "user_type": "normal"
   },
   "admin_test_account": {
-    "username": "jiweijian@lf-network.com",
-    "password": "jiweijian0"
+    "username": "",
+    "password": ""
   }
 }
