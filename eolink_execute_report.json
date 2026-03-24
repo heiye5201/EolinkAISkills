@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T15:03:12.506427",
+  "generated_at": "2026-03-24T15:32:19.197588",
   "total": 1,
   "passed": 1,
   "failed": 0,
@@ -15,13 +15,13 @@
       "response_body": {
         "type": "api_test_case",
         "status": "success",
-        "report_id": 243640
+        "report_id": 243646
       },
       "error": null,
       "raw": {
         "type": "api_test_case",
         "status": "success",
-        "report_id": 243640
+        "report_id": 243646
       }
     }
   ]

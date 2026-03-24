@@ -2,7 +2,7 @@ import json, requests
 cfg = json.load(open("eolink_config.json"))
 
 r = requests.post(
-    cfg["space_url"] + "/api/v2/api_studio/management/project/add_customizeList",
+    cfg["space_url"] + "/api/v2/api_studio/management/global_source/env/add",
     headers={"Eo-Secret-Key": cfg["Eo-Secret-Key"], "Content-Type": "application/json"},
     json={
         "space_id": cfg["space_id"],
