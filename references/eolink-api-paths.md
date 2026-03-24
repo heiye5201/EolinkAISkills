@@ -9,6 +9,10 @@
 | 功能 | 方法 | 路径 |
 |------|------|------|
 | 获取环境列表 | POST | `/v2/api_studio/management/project/get_customizeList` |
+| 修改环境 | POST | `/v2/api_studio/management/global_source/env/update` |
+| 获取环境详细信息 | POST | `/v2/api_studio/management/global_source/env/get` |
+| 添加环境 | POST | `/v2/api_studio/management/global_source/env/add` |
+| 删除环境 | POST | `/v2/api_studio/management/global_source/env/delete` |
 | 获取项目列表 | POST | `/v2/api_studio/management/project/search` |
 | 获取API测试用例列表 | GET | `/v2/api_studio/management/test_case/get_list` |
 | 获取测试用例详情 | GET | `/v2/api_studio/management/test_case/get_info` |
@@ -18,7 +22,6 @@
 | 获取/查询 API | POST | `/v2/api_beacon/api/basices` |
 | 获取接口字段/参数详情 | GET | `/v2/api_studio/management/api/get_api` |
 | 执行指定API的所有测试用例并获取报告 | POST | `/v2/api_studio/management/api_test_case/execute` |
-
 
 
 认证方式：请求 Header 中加入 `Eo-Secret-Key: {API_KEY}`
